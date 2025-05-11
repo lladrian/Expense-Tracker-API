@@ -37,7 +37,7 @@ Here are the features that you should implement in your Expense Tracker API:
 3. First you need to install using **`npm i`** in terminal.
 
 4. To run use this command : **`npm start`**
-    - Usage:  `http://localhost:4000/posts/add_post`
+    - Usage:  `http://localhost:4000/users/add_user`
       - Search via Web: 
 
           ## USER
@@ -53,15 +53,15 @@ Here are the features that you should implement in your Expense Tracker API:
           ## EXPENSE TRACKER
           - **GET** - **`http://localhost:4000/posts/get_specific_post/:id`** to get specific post.
           - **GET** - **`http://localhost:4000/posts/get_all_post`** to get all posts.
-          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?page=1`** to get todo lists via filter with query page.
-          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?limit=1`** to get todo lists via filter with query limit.
-          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?sortBy=created_at`** to get todo lists via filter with query sortBy.
-          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?order=desc`** to get todo lists via filter with query order.
-          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?order=asc`** to get todo lists via filter with query order.
-          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?date_range=week`** to get todo lists via filter with query date_range(past week).
-          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?date_range=month`** to get todo lists via filter with query date_range(past month).
-          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?date_range=3months`** to get todo lists via filter with query date_range(past 3months).
-          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?date_range=custom&start_date=2025-05-01&end_date=2025-05-11`** to get todo lists via filter with query date_rate custom date.
+          - **GET** - **`http://localhost:4000/posts/get_all_post?page=1`** to get todo lists via filter with query page.
+          - **GET** - **`http://localhost:4000/posts/get_all_post?limit=1`** to get todo lists via filter with query limit.
+          - **GET** - **`http://localhost:4000/posts/get_all_post?sortBy=created_at`** to get todo lists via filter with query sortBy.
+          - **GET** - **`http://localhost:4000/posts/get_all_post?order=desc`** to get todo lists via filter with query order.
+          - **GET** - **`http://localhost:4000/posts/get_all_post?order=asc`** to get todo lists via filter with query order.
+          - **GET** - **`http://localhost:4000/posts/get_all_post?date_range=week`** to get todo lists via filter with query date_range(past week).
+          - **GET** - **`http://localhost:4000/posts/get_all_post?date_range=month`** to get todo lists via filter with query date_range(past month).
+          - **GET** - **`http://localhost:4000/posts/get_all_post?date_range=3months`** to get todo lists via filter with query date_range(past 3months).
+          - **GET** - **`http://localhost:4000/posts/get_all_post?date_range=custom&start_date=2025-05-01&end_date=2025-05-11`** to get todo lists via filter with query date_rate custom date.
           - **POST** - **`http://localhost:4000/posts/add_post`** to add new post.
           - **PUT** - **`http://localhost:4000/posts/update_post/:id/`** to update the post.
           - **DELETE** - **`http://localhost:4000/posts/delete_post/:id`** to delete the post.
