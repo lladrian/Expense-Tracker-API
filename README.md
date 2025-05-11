@@ -56,7 +56,8 @@ Here are the features that you should implement in your Expense Tracker API:
           - **GET** - **`http://localhost:4000/todos/get_all_todo_list?page=1`** to get todo lists via filter with query page.
           - **GET** - **`http://localhost:4000/todos/get_all_todo_list?limit=1`** to get todo lists via filter with query limit.
           - **GET** - **`http://localhost:4000/todos/get_all_todo_list?sortBy=created_at`** to get todo lists via filter with query sortBy.
-          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?order=created_at`** to get todo lists via filter with query order.
+          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?order=desc`** to get todo lists via filter with query order.
+          - **GET** - **`http://localhost:4000/todos/get_all_todo_list?order=asc`** to get todo lists via filter with query order.
           - **GET** - **`http://localhost:4000/todos/get_all_todo_list?date_range=week`** to get todo lists via filter with query date_range(past week).
           - **GET** - **`http://localhost:4000/todos/get_all_todo_list?date_range=month`** to get todo lists via filter with query date_range(past month).
           - **GET** - **`http://localhost:4000/todos/get_all_todo_list?date_range=3months`** to get todo lists via filter with query date_range(past 3months).
